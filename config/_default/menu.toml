@@ -8,9 +8,9 @@
 #newtab = true
 
 [[social]]
-identifier = "codeberg"
-name = "Codeberg"
-url = "https://github.com/CaiJimmy/hugo-theme-stack"
+identifier = "github"
+name = "Github"
+url = "https://github.com/harperbolic"
 
 [social.params]
 icon = "brand-github"
@@ -18,7 +18,7 @@ icon = "brand-github"
 [[social]]
 identifier = "mastodon"
 name = "Mastodon"
-url = "https://twitter.com"
+url = "https://mastodon.gamedev.place/@harper"
 
 [social.params]
 icon = "brand-mastodon"
