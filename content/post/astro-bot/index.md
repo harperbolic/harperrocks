@@ -1,6 +1,6 @@
 ---
-title: "Astro Bot"
-description: Minhas impressões sobre o lançamento do collectathon em plataforma 3D.
+title: "Astro Bot - Alegria em forma de jogo"
+description: Minhas impressões sobre o lançamento do collectathon plataforma 3D.
 slug: astro-bot 
 date: 2024-09-07T17:59:28-03:00
 image: banner.png
@@ -18,7 +18,7 @@ license: false
 
 Desde que joguei Astro's Playroom, fiquei na expectativa de recebermos uma versão mais completa e com mais conteúdo do jogo, e mesmo com altas expectativas, Astro Bot as superou.
 
-O novo jogo de PS5 já significa muito pra mim, revive o sentimento que me fez começar a gostar de videogames mais de uma década atrás, e guia e exemplifica o que devemos almejar como gamedevs.
+O novo jogo de PS5 já significa muito pra mim, revive o sentimento que me fez começar a gostar de videogames mais de uma década atrás, guia e exemplifica o que na minha opinião devemos almejar como gamedevs.
 
 ![Estágio Au-au pra Toda Obra - Astrobot](pic1.webp)
 
