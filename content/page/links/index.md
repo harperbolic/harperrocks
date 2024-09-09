@@ -1,18 +1,37 @@
 ---
 title: Links
 links:
-  - title: Codeberg
-    description: Alguns código fonte de meus projetos e material de estudo.
-    website: https://codeberg.org/harperbolic
-    image: https://seeklogo.com/images/C/codeberg-logo-48AEF275F9-seeklogo.com.png
-  - title: Furigam
-    description: Minha empresa de jogos e serviços em jogos.
+
+  - title: Intrusion
+    description: O grande acontecimento atual.
+    website: https://intrusiongame.com.br
+    image: https://img.itch.zone/aW1nLzE3NzEyOTU0LnBuZw==/original/rMqWw0.png
+
+  - title: Furigam - Jogos comerciais
+    description: Já que parecer profissional é mais importante que ser.
     website: https://furigam.com
     image: https://furigam.com/assets/favi.png
+
+  - title: Comunidade no Discord
+    description: Ainda vazia, mas você pode ajudar a mudar isso!
+    website: https://discord.com/invite/vDCntHRvah
+    image: discord.svg
+
   - title: Youtube
-    description: Canal no Youtube, com vídeos apenas ocasionalmente.
+    description: Inscreva-se sem medo, nunca sai vídeo mesmo.
     website: https://www.youtube.com/channel/UCTeSc9MyRfGEoBshNiIyfwA
-    image: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhdclipartall.com%2Fimages%2Fyoutube-clipart-youtube-square-icons-1600x1600.png&f=1&nofb=1&ipt=bea71321b08af9b886b7e8b8416c4870bfe725aafc25b23ccea8d0ccf8810d8f&ipo=images
+    image: youtube.png
+
+  - title: Jogos
+    description: "'Who wanna play videogames?'"
+    website: https://harperbolic.itch.io
+    image: itch-io.svg
+
+  - title: Códigos Fonte
+    description: Descubra como é feito, se for capaz.
+    website: https://codeberg.org/harperbolic
+    image: https://seeklogo.com/images/C/codeberg-logo-48AEF275F9-seeklogo.com.png
+   
 
 menu:
     main: 
