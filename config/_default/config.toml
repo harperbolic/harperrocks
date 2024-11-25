@@ -1,7 +1,7 @@
 # Change baseurl before deploy
-baseurl = "https://harper.rocks"
+baseurl = "https://fembyte.net"
 languageCode = "pt-br"
-title = "Harper Rocks!"
+title = "Fembyte"
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk, ar

@@ -6,36 +6,3 @@
 #[main.params]
 #icon = "home"
 #newtab = true
-
-[[social]]
-identifier = "intrusion"
-name = "1-Intrusion"
-url = "https://intrusiongame.com.br"
-
-[social.params]
-icon = "star"
-
-
-[[social]]
-identifier = "discord"
-name = "3-Discord"
-url = "https://discord.com/invite/vDCntHRvah"
-
-[social.params]
-icon = "brand-discord"
-
-[[social]]
-identifier = "youtube"
-name = "4-YouTube"
-url = "https://www.youtube.com/channel/UCTeSc9MyRfGEoBshNiIyfwA"
-
-[social.params]
-icon = "brand-youtube"
-
-[[social]]
-identifier = "furigam"
-name = "5-Furigam"
-url = "https:/furigam.com"
-
-[social.params]
-icon = "plus"
