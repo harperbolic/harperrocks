@@ -56,6 +56,19 @@ fi
 
 Existem diversos tipos de flags e operadores, alguns incomuns em outras linguagens, que podem ser encontrados no final da página.
 
+#### Estrutura condicional composta
+
+A estrutura condicional composta permite com que caso uma condição não seja satisfeita, uma segunda seja testada.
+
+```
+if [[ "$name" == "puppyslut" && "$isEstrogenized" == true]]
+   bitches = 0
+elif [[ -z "$name" ]]
+   bitches = 1
+```
+
+## 
+
 ## Extra
 
 ### Condições
