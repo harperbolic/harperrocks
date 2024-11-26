@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on Fembyte</title><link>https://fembyte.net/categories/linux/</link><description>Recent content in Linux on Fembyte</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 25 Nov 2024 14:35:28 -0300</lastBuildDate><atom:link href="https://fembyte.net/categories/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Como sh pode salvar a sua pele</title><link>https://fembyte.net/p/como-sh-pode-salvar-a-sua-pele/</link><pubDate>Mon, 25 Nov 2024 14:35:28 -0300</pubDate><guid>https://fembyte.net/p/como-sh-pode-salvar-a-sua-pele/</guid><description>&lt;img src="https://fembyte.net/p/como-sh-pode-salvar-a-sua-pele/banner.jpg" alt="Featured image of post Como sh pode salvar a sua pele" />&lt;h2 id="introdução">Introdução
+&lt;/h2>&lt;p>Shell script é um tipo de arquivo de sistemas unix-like, que tem o objetivo de ser interpretado por um shell. Além de ter todas as utilidades tradicionais de uma linguagem de script, ele se destaca por estar integrado com o sistema operacional, o que permite que automações sejam feitas de maneira muito mais rápida e eficiente.&lt;/p>
+&lt;h2 id="bash-bourne-again-shell">Bash (Bourne-Again SHell)
+&lt;/h2>&lt;p>O Bash se destaca por ser o shell padrão na maior parte das distribuições GNU/Linux, concebido como uma evolução retro-compatível do clássico Bourne Shell (sh).&lt;/p>
+&lt;h3 id="características-de-um-arquivo-sh">Características de um arquivo .sh
+&lt;/h3>&lt;p>A primeira etapa para um arquivo de shell scripting, é indicar ao sistema o local do interpretador desejado, no nosso caso o Bash. Isso é indicado pelo símbolo chamado de shebang (#!)&lt;/p>
+&lt;p>&lt;code>#!/bin/bash&lt;/code>&lt;/p>
+&lt;p>Após isso, tudo que funcionaria no seu terminal funciona dentro do shell script. Desde comandos famosos do sistema como grep e ls, até comandos próprios ou baixados de repositórios.&lt;/p>
+&lt;h3 id="palavras-reservadas">Palavras reservadas
+&lt;/h3>&lt;h4 id="variáveis">Variáveis
+&lt;/h4>&lt;p>Como diversas linguagens de script, Bash não é uma linguagem tipada. Uma variável pode ser declarada simplesmente com um nome e o valor a ser recebido, sem a necessidade de ponto e vírgula.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">name = &amp;#34;puppyslut&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">bitches = 1
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">isEstrogenized = true
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Preste atenção que, por mais que variáveis sejam declaras dessa maneira, ao utiliza-las em outros comandos devemos colocar o símbolo $ antes delas para indicar a variável.&lt;/p>
+&lt;h4 id="estrutura-condicional">Estrutura condicional
+&lt;/h4>&lt;p>A estrutura condicional é um dos aspectos mais quirkies do Bash, uma estrutura condicional pode ser indicada da seguinte forma:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">if [[ &amp;#34;$name&amp;#34; == &amp;#34;puppyslut&amp;#34; &amp;amp;&amp;amp; &amp;#34;$isEstrogenized&amp;#34; == true]]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> bitches = 0
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">fi
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Existem diversos tipos de flags e operadores, alguns incomuns em outras linguagens, que podem ser encontrados no final da página.&lt;/p>
+&lt;h4 id="estrutura-condicional-composta">Estrutura condicional composta
+&lt;/h4>&lt;p>A estrutura condicional composta permite com que caso uma condição não seja satisfeita, uma segunda seja testada.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">if [[ &amp;#34;$name&amp;#34; == &amp;#34;puppyslut&amp;#34; &amp;amp;&amp;amp; &amp;#34;$isEstrogenized&amp;#34; == true]]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> bitches = 0
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">elif [[ -z &amp;#34;$name&amp;#34; ]]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> bitches = 1
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="heading">
+&lt;/h2>&lt;h2 id="extra">Extra
+&lt;/h2>&lt;h3 id="condições">Condições
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">[[ -z STRING ]] Checa se uma string está vazia
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[[ -n STRING ]] Checa se uma string não está vazia
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[[ STRING == STRING ]] Igual (string)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[[ STRING != STRING ]] Diferente (string)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[[ NUM -eq NUM ]] Igual (numeral)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[[ NUM -ne NUM ]] Diferente (numeral)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[[ NUM -lt NUM ]] Menor que
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[[ NUM -le NUM ]] Menor ou igual que
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[[ NUM -gt NUM ]] Maior que
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[[ NUM -ge NUM ]] Maior ou igual que
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[[ STRING =~ STRING ]] Regex
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">(( NUM &amp;gt; NUM )) Condição numérica
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[[ -o noclobber ]] Se OPTIONNAME está habilitado
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[[ ! EXPR ]] Negação
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[[ X &amp;amp;&amp;amp; X ]] Conjunção
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[[ X || Y ]] Disjunção
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Condicionais de arquivos:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">[[ -e FILE ]] Se arquivo existe
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[[ -r FILE ]] Se tem permissão de leitura
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[[ -h FILE ]] Symlink
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[[ -d FILE ]] Diretório
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[[ -w FILE ]] Se tem permissão de escrita
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[[ -s FILE ]] Tamanho maior que 0 bytes
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[[ -f FILE ]] Arquivo
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[[ -x FILE ]] Executável
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[[ FILE1 -nt FILE2 ]] Se arquivo 1 é mais recente que 2
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[[ FILE1 -ot FILE2 ]] Se arquivo 2 é mais recente que 1
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[[ FILE1 -ef FILE2 ]] Se arquivos iguais
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item></channel></rss>
