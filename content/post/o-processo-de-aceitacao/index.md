@@ -5,9 +5,9 @@ date: 2024-12-11T00:17:25-03:00
 image: 
 math: 
 license: 
-hidden: false
+hidden: true
 comments: true
-draft: false
+draft: true
 ---
 
 Quase 3 anos atrás, no começo do meu processo de transição 
