@@ -6,9 +6,9 @@ date: 2024-11-25T14:35:28-03:00
 image: banner.jpg
 categories:
    - Linux
-hidden: false
+hidden: true
 comments: false
-draft: false
+draft: true
 license: false
 ---
 
