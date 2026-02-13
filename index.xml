@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Harper Rocks</title>
+    <link>https://harper.rocks/</link>
+    <description>Recent content in Home on Harper Rocks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2026 Harper Rocks.</copyright>
+    <atom:link href="https://harper.rocks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects</title>
+      <link>https://harper.rocks/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://harper.rocks/projects/</guid>
+      <description>I&amp;rsquo;ve been doing game development since late 2022, even though previously involved in programming and music composition.&#xA;Here is some of my work!&#xA;Game Jams I started participating in game jam in order to gain experience as a developer and mainly because I love working with other people.&#xA;Here are some of the games I&amp;rsquo;ve developed during them:&#xA;WALLFLOWER WALLFLOWER is a job simulator / visual novel where you play as the tired and quiet stationary cashier of a convenience store.</description>
+    </item>
+    <item>
+      <title>Links</title>
+      <link>https://harper.rocks/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://harper.rocks/links/</guid>
+      <description>I don&amp;rsquo;t use many social networks (in screentime and number of platforms), but here are some if you&amp;rsquo;re interested!&#xA;If you wanna reach me out please EMAIL ME or DM on BlueSky.&#xA;Websites This one&#xA;My game studio (still WIP)&#xA;Social Itch.io&#xA;BlueSky&#xA;Mastodon&#xA;Stream my music! BandCamp YouTube Spotify Apple Music </description>
+    </item>
+  </channel>
+</rss>

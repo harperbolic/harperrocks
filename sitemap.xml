@@ -1,21 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://harper.rocks/</loc>
-    </url>
-    <url>
-        <loc>https://harper.rocks/extra/about/</loc>
-        <lastmod>2025-06-16</lastmod>
-    </url>
-    <url>
-        <loc>https://harper.rocks/extra/markdown-test/</loc>
-        <lastmod>2025-06-16</lastmod>
-    </url>
-    <url>
-        <loc>https://harper.rocks/page/1/</loc>
-    </url>
-    <url>
-        <loc>https://harper.rocks/writing-music-with-purpose/</loc>
-        <lastmod>2025-06-17</lastmod>
-    </url>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://harper.rocks/</loc>
+  </url><url>
+    <loc>https://harper.rocks/projects/</loc>
+  </url><url>
+    <loc>https://harper.rocks/blog/</loc>
+  </url><url>
+    <loc>https://harper.rocks/links/</loc>
+  </url>
 </urlset>

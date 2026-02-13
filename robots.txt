@@ -1,4 +1,2 @@
-User-agent: *
-Disallow:
-Allow: /
+User-Agent: *
 Sitemap: https://harper.rocks/sitemap.xml

@@ -1,74 +1,230 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>harper.rocks</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
-    <meta
-      name="description"
-      itemprop="about"
-      content="Personal Blog !"
-    />
-    <link rel="stylesheet" href="https://harper.rocks/styles.css"/>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  </head>
 
-  <body class="bg-black text-white h-screen text-xl min-h-[100vh] flex flex-col">
+<head>
+	<meta name="generator" content="Hugo 0.123.7">
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="https://harper.rocks/images/favicon.png" />
+<title>Home | Harper Rocks</title>
+<meta name="title" content="Home" />
+<meta name="description" content="Hugo &#43; Bear = :heart:" />
+<meta name="keywords" content="" />
 
-    <header class="bg-[#6e0e23] drop-shadow-lg drop-shadow-[#6e0e23]">
-      <nav class="flex justify-center items-center w-[92%] mx-auto h-[7vh]">
-        <div class="">
-            <ul class="flex gap-[30px] sm:gap-[40px]">
-              <li>
-                <a class="hover:text-gray-400" href="/extra/about">About</a>
-              </li>
-              <li>
-                <a class="hover:text-gray-400" target="_blank" href="https://harperbolic.itch.io">Games</a>
-              </li>
-              <li>
-                <a class="hover:text-gray-400" href="/">Blog</a>
-              </li>
-            </ul>
-        </div>
-      </nav>
-    </header>
-    <main class="grow-[1]">
-      <section class="flex flex-col w-[90%] sm:w-[80%] xl:w-[50%] mx-auto"> 
-<h1 class="text-[25px] pt-[3vh] pb-[2vh] font-bold text-center">Recent Posts</h1>
 
- </section>
+<meta property="og:title" content="Home" />
+<meta property="og:description" content="Hugo &#43; Bear = :heart:" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://harper.rocks/" /><meta property="og:image" content="https://harper.rocks/images/share.png" /><meta property="og:site_name" content="Hugo ʕ•ᴥ•ʔ Bear" />
 
-      <div class="flex flex-row flex-wrap w-[90%] sm:w-[80%] xl:w-[50%] mx-auto justify-center mt-[40px] gap-[50px]"> 
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://harper.rocks/images/share.png" /><meta name="twitter:title" content="Home"/>
+<meta name="twitter:description" content="Hugo &#43; Bear = :heart:"/>
+
+
+
+<meta itemprop="name" content="Home">
+<meta itemprop="description" content="Hugo &#43; Bear = :heart:">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <link rel="alternate" type="application/rss+xml" href="https://harper.rocks/index.xml" title="Harper Rocks" />
+  <style>
+  :root {
+    --width: 720px;
+    --font-main: Lexend, sans-serif;
+    --font-secondary: Lexend, sans-serif;
+    --font-scale: 1.08em;
+    --background-color: #fff;
+    --heading-color: #1f0305;
+    --text-color: #444;
+    --link-color: #ff0011;
+    --visited-color: #a1000b;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 40px
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px
+  }
+  nav a {
+    margin-right: 8px;
+  }
+
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  time {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 1;
+    border-top: 1px solid #1f0305;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    border-radius: 3px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--blockquote-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+</style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet"></head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2 class="title">Harper Rocks!</h2>
+</a>
+<nav>
+<a href="/">Home</a>
+
+<a href="/projects/">Projects</a>
+
+<a href="/blog/">Blog</a>
+
+<a href="/links/">Links</a>
+
+</nav>
+<hr>
+</header>
+  <main>
+<p>Hi! I&rsquo;m <strong>Harper Moreira</strong> and this is my personal blog/website.</p>
+<p>I make <strong>games</strong>, music and have been making things on the internet for many years. This website exists so I can articulate better and share my ideas and things I do since I&rsquo;m a big nerd for learning and exploring new things.</p>
+<p>During my life, I have worked in several different areas, initially as a musician for several years, but currently I work mainly in <strong>production</strong>, <strong>programming</strong> and <strong>game design</strong>.</p>
+<p>I am a <strong>computer science student</strong> and former <strong>undergraduate research fellow</strong> in game-based learning at the Federal Institute of São Paulo.</p>
+
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
 
   
-    <article class="text-center max-w-[400px]">
-      <a href="https:&#x2F;&#x2F;harper.rocks&#x2F;writing-music-with-purpose&#x2F;" class="hover:text-gray-400">
-        <h2>Writing with purpose</h2>
-        <p>A comprehensive guide on writing music that has something to say</p>
-        <time class="text-[18px] text-gray-400"datetime="2025-06-17">2025-06-17</time>
-      </a>
-    </article>
-  
-    
-</div>
-    </main>
+</body>
 
-    <footer class="flex mt-[50px] bg-[#6e0e23] h-auto lg:p-[5px] p-[15px]">
-      <div class="flex lg:flex-row flex-col-reverse justify-between gap-[50px] items-center lg:mx-[30%] mx-[5%] grow-[1]">
-        <p class="text-[23px]">© Harper Moreira 2025</p>
-        <div class="flex lg:flex-row flex-col text-[23px] gap-[20px]">
-          <a class="hover:text-gray-400" href="https://bsky.app/profile/harper.furigam.com" target="_blank">BlueSky</a>
-          <a class="hover:text-gray-400" href="https://youtube.com/channel/UCTeSc9MyRfGEoBshNiIyfwA" target="_blank">YouTube</a>
-          <a class="hover:text-gray-400" href="mailto:harper@furigam.com">Get in touch</a>
-          <a></a>
-        </div>
-
-      </div>
-        
-    </footer>
-  </body>
 </html>
