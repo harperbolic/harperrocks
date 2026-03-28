@@ -35,19 +35,26 @@
   <style>
   :root {
     --width: 720px;
-    --font-main: Lexend, sans-serif;
-    --font-secondary: Lexend, sans-serif;
-    --font-scale: 1.08em;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
     --background-color: #fff;
-    --heading-color: #1f0305;
+    --heading-color: #222;
     --text-color: #444;
-    --link-color: #ff0011;
-    --visited-color: #a1000b;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
     --blockquote-color: #222;
   }
 
   @media (prefers-color-scheme: dark) {
     :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --blockquote-color: #ccc;
+    }
   }
 
   body {
@@ -62,15 +69,6 @@
     overflow-wrap: break-word;
     line-height: 1.5;
     color: var(--text-color);
-  }
-  
-  img {
-    width: 100%;
-  }
-  
-  .title {
-    text-align: center;
-    font-size: 40px
   }
 
   h1,
@@ -93,11 +91,6 @@
     text-decoration: underline;
   }
 
-  nav {
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px
-  }
   nav a {
     margin-right: 8px;
   }
@@ -127,8 +120,8 @@
   }
 
   hr {
-    border: 1;
-    border-top: 1px solid #1f0305;
+    border: 0;
+    border-top: 1px dashed;
   }
 
   img {
@@ -193,13 +186,11 @@
 
 </style>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet"></head>
+</head>
 
 <body>
   <header><a href="/" class="title">
-  <h2 class="title">Harper Rocks!</h2>
+  <h2>Harper Rocks</h2>
 </a>
 <nav>
 <a href="/">Home</a>
@@ -211,7 +202,6 @@
 <a href="/links/">Links</a>
 
 </nav>
-<hr>
 </header>
   <main>
 <p>Hi! I&rsquo;m <strong>Harper Moreira</strong> and this is my personal blog/website.</p>
